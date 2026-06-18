@@ -1,5 +1,5 @@
 function isSameType(value1, value2) {
-	return value1 === value2;
+	return typeof(value1) === typeof(value2);
 }
 
 // do not change the code below.
